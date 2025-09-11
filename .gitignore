@@ -15,6 +15,15 @@
 /**/*.log
 /**/*.size
  
+ *.d.ts
+ *.lst
+
+
+ progress.marks
+*.make
+*.cmake
+*.internal
+
 # IDE auto-generated metadata except necessary files
 _ide/
 !_ide/version.ini
@@ -46,6 +55,12 @@ Thumbs.db
  
 # Exclude export, resources, and auto-generated dirs under platform
 grl_v_epr_pf/export/
+
+# grl_v_epr_pf/psu_cortex5_0/freertos_psu_cortexr5_0/bsp/build/
+# grl_v_epr_pf/psu_cortex5_0/freertos_psu_cortexr5_0/bsp/libsrc/**/build/
+/**/**/bsp/build/
+
+/**/**/**/libsrc/**/build/
 # grl_v_epr_pf/resources/
 # zed_pf/hw/sdt/
  
@@ -59,3 +74,8 @@ grl_v_epr_pf/export/
 # Exclude build and compile commands in app
 # linux_hello_world/build/
 # linux_hello_world/compile_commands.json
+
+
+# VSCode IDE or tool generated files
+.vscode/
+.settings/
