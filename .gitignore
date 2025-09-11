@@ -24,6 +24,10 @@ _ide/
 *.str
 *.opt
 *.backup
+
+# Ignore all archive files (*.a)
+*.a
+
  
 # Logs
 logs/
