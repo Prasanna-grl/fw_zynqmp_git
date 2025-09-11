@@ -25,8 +25,10 @@ _ide/
 *.opt
 *.backup
 
+#this section should be present for the initial commit. once commit to the upstream is done. 
+#We need to enable this section for ignoring the files for committing
 # Ignore all archive files (*.a)
-*.a
+# *.a
 
  
 # Logs
