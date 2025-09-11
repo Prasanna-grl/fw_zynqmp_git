@@ -1,0 +1,55 @@
+# Build outputs
+/build/
+/**/build/
+/**/CMakeFiles/
+/**/Makefile
+/**/cmake_install.cmake
+/**/CMakeCache.txt
+/**/*.o
+/**/*.obj
+/**/*.elf
+/**/*.bin
+/**/*.hex
+/**/*.d
+/**/*.map
+/**/*.log
+/**/*.size
+ 
+# IDE auto-generated metadata except necessary files
+_ide/
+!_ide/version.ini
+ 
+# Vitis system files
+*.jou
+*.str
+*.opt
+*.backup
+ 
+# Logs
+logs/
+*.log
+ 
+# Lock files
+*.lock
+ 
+# OS/Editor files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ 
+# Exclude export, resources, and auto-generated dirs under platform
+grl_v_epr_pf/export/
+grl_v_epr_pf/resources/
+# zed_pf/hw/sdt/
+ 
+ # Ignore everything inside build folder
+/grl_v_epr_pf/zynqmo_fsbl/build/**
+
+# But include the build directory itself (empty folder)
+!/grl_v_epr_pf/zynqmp_fsbl/build/
+
+
+# Exclude build and compile commands in app
+# linux_hello_world/build/
+# linux_hello_world/compile_commands.json

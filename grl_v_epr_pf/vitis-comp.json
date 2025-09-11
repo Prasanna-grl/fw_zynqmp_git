@@ -1,0 +1,61 @@
+{
+  "name": "grl_v_epr_pf",
+  "type": "PLATFORM",
+  "configuration": {
+    "description": "",
+    "xsa": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/hw/VDPWR_2V0_TOP.xsa",
+    "xsaPathInPlatform": "grl_v_epr_pf/hw/VDPWR_2V0_TOP.xsa",
+    "emulationXsa": "",
+    "emulationXsaPathInPlatform": "",
+    "isCustomFSBL": false,
+    "fsblPath": "",
+    "pmufwElf": "",
+    "flow": "EMBEDDED",
+    "processorsMap": {
+      "psu_cortexa53_0": "psu_cortexa53",
+      "psu_cortexa53_1": "psu_cortexa53",
+      "psu_cortexa53_2": "psu_cortexa53",
+      "psu_cortexa53_3": "psu_cortexa53",
+      "psu_cortexr5_0": "psu_cortexr5",
+      "psu_cortexr5_1": "psu_cortexr5",
+      "psu_pmu_0": "psu_pmu"
+    },
+    "supportedFamily": "zynquplus",
+    "outOfSync": false,
+    "componentType": "PLATFORM",
+    "domains": [
+      {
+        "name": "zynqmp_fsbl",
+        "displayName": "zynqmp_fsbl",
+        "processor": "psu_cortexa53_0",
+        "cpuType": "cortex-a53",
+        "cpuInstance": "psu_cortexa53_0",
+        "os": "standalone",
+        "appTemplate": "zynqmp_fsbl",
+        "isBootDomain": true,
+        "qemuData": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/zynqmp_fsbl/qemu",
+        "qemuArgsFile": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/zynqmp_fsbl/qemu/qemu_args.txt",
+        "pmcQemuArgsFile": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/zynqmp_fsbl/qemu/pmu_args.txt",
+        "isBSPGenReq": false
+      },
+      {
+        "name": "linux_psu_cortexa53",
+        "displayName": "Linux On psu_cortexa53",
+        "processor": "psu_cortexa53",
+        "cpuType": "cortex-a53",
+        "cpuInstance": "psu_cortexa53",
+        "os": "linux",
+        "qemuData": "",
+        "qemuArgsFile": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/linux_psu_cortexa53/qemu/qemu_args.txt",
+        "pmcQemuArgsFile": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/linux_psu_cortexa53/qemu/pmu_args.txt",
+        "bifFile": "",
+        "bootDirectory": "",
+        "sdCardDirectory": ""
+      }
+    ],
+    "emptyToolchainConfiguration": []
+  },
+  "previousBuildStatusMap": {
+    "export": "SUCCESS"
+  }
+}
