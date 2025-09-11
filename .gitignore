@@ -46,7 +46,7 @@ Thumbs.db
  
 # Exclude export, resources, and auto-generated dirs under platform
 grl_v_epr_pf/export/
-grl_v_epr_pf/resources/
+# grl_v_epr_pf/resources/
 # zed_pf/hw/sdt/
  
  # Ignore everything inside build folder
