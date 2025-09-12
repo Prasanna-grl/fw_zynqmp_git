@@ -51,6 +51,20 @@
         "bifFile": "",
         "bootDirectory": "",
         "sdCardDirectory": ""
+      },
+      {
+        "name": "freertos_psu_cortexr5_0",
+        "displayName": "freertos_psu_cortexr5_0",
+        "processor": "psu_cortexr5_0",
+        "cpuType": "cortex-r5",
+        "cpuInstance": "psu_cortexr5_0",
+        "os": "freertos",
+        "appTemplate": "empty_application",
+        "isBootDomain": false,
+        "qemuData": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/freertos_psu_cortexr5_0/qemu",
+        "qemuArgsFile": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/freertos_psu_cortexr5_0/qemu/qemu_args.txt",
+        "pmcQemuArgsFile": "/home/prasanna/Apps/Xilinx/vitis_git_setup/kria/push/fw_zynqmp_git/grl_v_epr_pf/resources/freertos_psu_cortexr5_0/qemu/pmu_args.txt",
+        "isBSPGenReq": false
       }
     ],
     "emptyToolchainConfiguration": []
