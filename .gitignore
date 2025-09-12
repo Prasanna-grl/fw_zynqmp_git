@@ -19,11 +19,11 @@
  *.d.ts
  *.lst
 
-
- progress.marks
-*.make
-*.cmake
-*.internal
+# commenyted since may required for r5
+#  progress.marks
+# *.make
+# *.cmake
+# *.internal
 
 # IDE auto-generated metadata except necessary files
 _ide/
@@ -42,9 +42,26 @@ _ide/
 
  
 # Logs
-logs/
-*.log
+# logs/
+# *.log
  
+# ignore log folder also
+ logs/
+
+# Ignore everything inside logs directory
+ logs/*
+
+# Ignore everything inside logs directory
+ logs/*.py
+
+# Except allow all .log files inside logs directory and subdirectories
+!logs/*.log
+
+# Also keep the logs directory itself tracked
+# !logs/
+
+
+
 # Lock files
 *.lock
  
