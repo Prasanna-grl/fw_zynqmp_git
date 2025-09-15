@@ -17,7 +17,7 @@
 /**/*.size
 
 
- **/gen_bsp/nul
+ **/nul
  *.d.ts
  *.lst
 
