@@ -17,6 +17,7 @@
 /**/*.size
 
 
+/**/.repo.yaml
 **/nul
  *.d.ts
  *.lst
