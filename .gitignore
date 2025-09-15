@@ -15,7 +15,9 @@
 /**/*.map
 /**/*.log
 /**/*.size
- 
+
+
+ **/gen_bsp/nul
  *.d.ts
  *.lst
 
